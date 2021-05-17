@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finer Attire</title>
+
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="https://rawgit.com/alvarotrigo/fullPage.js/dev/src/fullpage.css"/>
+</head>
+<body>
+    <div id="fullpage">
+        <div class="section" style="background-image: url('img/HomeBackground.png');">
+            <div class="overlay">
+                <div class="overlay-nav">
+                    <p class="logo">FinerAttire</p>
+                    <img class="cart" src="img/cart.png">
+                </div>
+            </div>
+        </div>
+        <div class="section" style="background-image: url('img/CasualBackground.png');">
+            <div class="overlay">
+                <div class="photo-overlay">
+                    <img src="img/clothes/casual-tr.png" class="bottom-left-photo">
+                    <img src="img/clothes/casual-bl.png" class="top-right-photo">
+                </div>
+                <div class="overlay-nav">
+                    <p class="logo">FinerAttire</p>
+                    <img class="cart" src="img/cart.png">
+                </div>
+                <div class="overlay-text">
+                    <h3 class="overlay-subtitle">For the everyday gentleman</h3>
+                    <h2 class="overlay-title">Casual</h2>
+                </div>
+                <div class="link-div">
+                    <a href="#" class="link">Get the look >></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section" style="background-image: url('img/BusinessCasualBackground.png');">
+            <div class="overlay">
+                <div class="photo-overlay">
+                    <img src="img/clothes/bcasual-tl.png" class="top-left-photo">
+                    <img src="img/clothes/bcasual-br.png" class="bottom-right-photo">
+                </div>
+                <div class="overlay-nav">
+                    <p class="logo">FinerAttire</p>
+                    <img class="cart" src="img/cart.png">
+                </div>
+                <div class="overlay-text">
+                    <h3 class="overlay-subtitle">For the everyday gentleman with people to impress</h3>
+                    <h2 class="overlay-title">Business Casual</h2>
+                </div>
+                <div class="link-div">
+                    <a href="#" class="link">Get the look >></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section" style="background-image: url('img/EntrepeneurBackground.png');">
+            <div class="overlay">
+                <div class="photo-overlay">
+                    <img src="img/clothes/entr-tl.png" class="top-left-photo">
+                    <img src="img/clothes/entr-bl.png" class="bottom-left-photo">
+                </div>
+                <div class="overlay-nav">
+                    <p class="logo">FinerAttire</p>
+                    <img class="cart" src="img/cart.png">
+                </div>
+                <div class="overlay-text">
+                    <h3 class="overlay-subtitle">Enter the business world in style</h3>
+                    <h2 class="overlay-title">Entrepeneur</h2>
+                </div>
+                <div class="link-div">
+                    <a href="#" class="link">Get the look >></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="section" style="background-image: url('img/BossBackground.png');">
+            <div class="overlay">
+                <div class="photo-overlay">
+                    <img src="img/clothes/boss-tr.png" class="top-right-photo">
+                    <img src="img/clothes/boss-br.png" class="bottom-right-photo">
+                </div>
+                <div class="overlay-nav">
+                    <p class="logo">FinerAttire</p>
+                    <img class="cart" src="img/cart.png">
+                </div>
+                <div class="overlay-text">
+                    <h3 class="overlay-subtitle">Let people know who you are</h3>
+                    <h2 class="overlay-title">The boss</h2>
+                </div>
+                <div class="link-div">
+                    <a href="#" class="link">Get the look >></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="section" style="background-image: url('img/HowBackground.png');">
+            <div class="overlay">
+                <div class="photo-overlay">
+                    <p class="top-right-photo">We handpick every single piece of clothing to the highest standard.
+                        If it doesn't fit you can return it and get something new!</p>
+                    <p class="bottom-right-photo">A new fit delivered to your door every month.
+                    </p>
+                    <p class="bottom-middle-photo">We only deliver the finest brands and materials for your satisfaction
+                    </p>
+                </div>
+                <div class="overlay-nav">
+                    <p class="logo">FinerAttire</p>
+                    <img class="cart" src="img/cart.png">
+                </div>
+                <div class="overlay-text">
+                    <h3 class="overlay-subtitle">How we do it</h3>
+                    <h2 class="overlay-title">How it works</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://rawgit.com/alvarotrigo/fullPage.js/dev/src/fullpage.js"></script>
+    <script>
+        new fullpage('#fullpage', {
+            navigation: true,
+            responsiveWidth: 700,
+            anchors: ['home', 'casual', 'business-casual', 'entrepeneur', 'the-boss', 'how-it-works'],
+            navigationTooltips: ['Home', 'Casual', 'Business Casual', 'Entrepeneur', 'The Boss', 'How It Works'],
+	        showActiveTooltip: true,
+            parallax: true,
+        });
+    </script>
+</body>
+</html>

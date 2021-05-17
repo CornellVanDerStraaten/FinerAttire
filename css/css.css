@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #2B2B2B;
+    font-family: 'Roboto Slab', sans-serif;
+}
+.section {
+    background-position: center;
+}
+.overlay {
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    position: relative;
+}
+.photo-overlay {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+.overlay-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+}
+.overlay-text {
+    position: absolute;
+    left: 10vw;
+    top: 35vh;
+}
+.overlay-subtitle {
+    font-weight: 400;
+    margin: 0;
+    font-size: 25px;
+    margin-left: 50px;
+    color: #c2a767;
+}
+.overlay-title {
+    margin: 0;
+    font-weight: 400;
+    font-size: 80px;
+    color: #E0CDA2;
+}
+.link-div {
+    position: absolute;
+    bottom: 50px;
+    color: #E0CDA2;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.link {
+    position: relative;
+    display: inline;
+    margin: 0 auto;
+    color: #E0CDA2;
+    font-size: 25px;
+    text-decoration: underline;
+}
+.link:hover {
+    color: #c2a767;
+}
+.cart {
+    width: 30px;
+    height: 25px;
+}
+.logo {
+    margin: 0;
+    font-family: 'Philosopher', sans-serif;
+    color: #E0CDA2;
+    font-size: 30px;
+}
+.fp-right > ul > li > div {
+    font-family: 'Roboto Slab', sans-serif !important;
+    color: #E0CDA2 !important;
+    font-size: 20px !important;
+}
+.fp-right > ul > li {
+    margin: 20px !important;
+}
+.fp-right > ul > li > .active > span {
+    background-color: #E0CDA2 !important;
+    height: 20px !important;
+    width:20px !important;
+    margin: -6px 0 0 -6px !important;
+}
+.fp-right > ul > li > a > span {
+    background-color: transparent !important;
+    border: #E0CDA2 2px solid !important;
+    height: 20px !important;
+    width:20px !important;
+}
+.bottom-left-photo {
+    position: absolute;
+    bottom: 45px;
+    left: 350px;
+}
+.top-right-photo {
+    top: 45px;
+    right: 350px;
+    position: absolute;
+}
+.top-left-photo {
+    position: absolute;
+    top: 45px;
+    left: 250px;
+}
+.bottom-right-photo {
+    bottom: 45px;
+    right: 250px;
+    position: absolute;
+}
+.bottom-right-photo {
+    bottom: 45px;
+    right: 40vw;
+    position: absolute;
+}
+
+
