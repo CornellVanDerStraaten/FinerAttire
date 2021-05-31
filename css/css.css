@@ -118,5 +118,148 @@ html, body {
     right: 40vw;
     position: absolute;
 }
-
+.top-text {
+    position: absolute;
+    top: 60px;
+    right: 10vw;
+    font-size: 30px;
+    width: 70%;
+    color: #E0CDA2;
+}
+.lower-top-text {
+    position: absolute;
+    top: 200px;
+    right: 5vw;
+    font-size: 30px;
+    width: 70%;
+    color: #E0CDA2;
+}
+.bottom-text {
+    position: absolute;
+    bottom: 160px;
+    right: 10vw;
+    font-size: 30px;
+    width: 70%;
+    color: #E0CDA2;
+}
+.top-big-text {
+    position: absolute;
+    top: 60px;
+    right: 10vw;
+    font-size: 60px;
+    width: 70%;
+    color: #E0CDA2;
+}
+.lower-top-text {
+    position: absolute;
+    top: 200px;
+    right: 5vw;
+    font-size: 30px;
+    width: 70%;
+    color: #E0CDA2;
+}
+.bottom-text {
+    position: absolute;
+    bottom: 160px;
+    right: 10vw;
+    font-size: 30px;
+    width: 70%;
+    color: #E0CDA2;
+}
+.middle-top-text {
+    position: absolute;
+    bottom: 460px;
+    left: 20vw;
+    font-size: 23px;
+    width: 40%;
+    color: #E0CDA2; 
+}
+.middle-bottom-text {
+    position: absolute;
+    bottom: 260px;
+    left: 35vw;
+    font-size: 23px;
+    width: 30%;
+    color: #E0CDA2; 
+}
+@media screen and (max-width: 1000px) {
+    .top-image {
+        display: none !important;
+    }
+    .bottom-left-photo {
+        position: absolute;
+        bottom: 45px;
+        left: 50px;
+    }
+    .top-big-text {
+        left: 5vw;
+        font-size: 40px;
+        width: 90%;
+    }
+    .middle-top-text {
+        left: 5vw;
+        font-size: 24px;
+        width: 70%; 
+    }
+    .middle-bottom-text {
+        left: 5vw;
+        font-size: 24px;
+        width: 70%; 
+    }
+    .overlay-text {
+        position: absolute;
+        top: 150px;
+    }
+    .overlay-title {
+        width: 100%;
+        font-size: 35px;
+    }
+    .top-text {
+        font-size: 20px;
+        left: 5vw;
+        top: 250px;
+    }
+    .lower-top-text {
+        font-size: 20px;
+        left: 5vw;
+        top: 450px;
+    }
+    .bottom-text {
+        font-size: 20px;
+        left: 5vw;
+        top: 650px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .bottom-left-photo {
+        width: 90%;
+    }
+    .top-big-text {
+        width: 90%;
+    }
+    .middle-top-text {
+        width: 90%;
+    }
+    .middle-bottom-text {
+        width: 90%; 
+    }
+    .overlay-text {
+        width: 90%;
+    }
+    .overlay-title {
+        width: 90%;
+    }
+    .top-text {
+        width: 90%;
+    }
+    .lower-top-text {
+        width: 90%;
+    }
+    .bottom-text {
+        width: 90%;
+    }
+    .overlay-subtitle {
+        width: 60%;
+    }
+}
 
