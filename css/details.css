@@ -1,0 +1,28 @@
+.leftimg-righttext {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+.img-div {
+    width: 50%;
+}
+.img-div > img {
+    width: 100%;
+    padding: 20px;
+}
+.detail-tekst {
+    color: #E0CDA2;
+    width: 50%;
+}
+h2 {
+    font-size: 30px;
+
+}
+.reverse {
+    padding: 10px;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+li {
+    padding: 5px 0 5px 0;
+}
